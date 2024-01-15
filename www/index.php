@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- based css bootstrap by bootswatch -->
     <link rel="stylesheet" href="https://bootswatch.com/5/sketchy/bootstrap.min.css">
-    <title>Biblio</title>
+    <title>Bibliothèque
+        
+    </title>
 </head>
 
 <body>
