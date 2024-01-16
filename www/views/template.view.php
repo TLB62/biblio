@@ -2,6 +2,8 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="Site sur rien du tout">
+    <meta name="keywords" content="livres, bibliothèque">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- based css bootstrap by bootswatch -->
     <link rel="stylesheet" href="https://bootswatch.com/5/sketchy/bootstrap.min.css">
@@ -18,12 +20,15 @@
     <div class="collapse navbar-collapse" id="navbarColor01">
       <ul class="navbar-nav me-auto">
         <li class="nav-item">
-          <a class="nav-link active" href="/">Accueil
+          <a class="nav-link active" href="accueil">Accueil
             <span class="visually-hidden">(current)</span>
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="livres.php">Livres</a>
+          <a class="nav-link" href="livres">Livres</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="a-propos">A propos</a>
         </li>
     </div>
   </div>

@@ -4,5 +4,8 @@
 # envi file
 .env
 
+# htaccess
+.htaccess
+
 # database
 /database

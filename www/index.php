@@ -1,8 +1,20 @@
-<?php ob_start() ?>
-
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi veniam, saepe at excepturi, voluptates odit et modi debitis ad quaerat incidunt error cupiditate provident esse, dolores ut fugit corporis aperiam.</p>
-
 <?php
-$titre = "Bibliothèque de Thomas";
-$content = ob_get_clean();
-require_once "template.php";
+
+if(empty($_GET['page'])) {
+    require "views/accueil.view.php";
+} else {
+    switch ($_GET['page']) {
+        case 'accueil':
+            require "views/accueil.view.php";
+            break;
+        case 'livres':
+            require "views/livres.view.php";
+            break;
+        case 'a-propos':
+            require "views/a-propos.view.php";
+            break;
+        default:
+            require "views/error.view.php";
+            break;
+    }
+}

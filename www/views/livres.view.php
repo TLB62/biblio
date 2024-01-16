@@ -35,4 +35,4 @@ $livreManager->chargementLivres();
 <?php
 $titre = " Livres de Thomas";
 $content = ob_get_clean();
-require_once "template.php";
+require_once "template.view.php";
